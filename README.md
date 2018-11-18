@@ -21,7 +21,7 @@ Attribute Information:
 11. Text - text of the review
 12. ProcessedText - Cleaned & Preprocessed Text of the review
 ## Flow of Project
-We have applied almost all of the possible Machine Learning Algorithms in the classfication of polarity of Reviews. 
+We have applied almost all of the possible Machine Learning Algorithms in the classfication of polarity of Reviews. We have also applied T-SNE which is a dimensionality reduction algorithm to visualize our data from higher dimension into 2-D.
 Since, a review is nothing but a sequence of characters and we know that LSTM process sequence information very well so we have also used LSTM which is a deep learning technique and as expected, we got the best accuracy on LSTM among all the algorithms that we have tried.
 All of the algorithms are segregated in separate files, so it is easy to find different algorithms in separate files.
 ## How to Run the Project
